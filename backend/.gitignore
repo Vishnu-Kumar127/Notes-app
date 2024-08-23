@@ -1,2 +1,6 @@
 .env
+<<<<<<< HEAD
 db.sqlite3
+=======
+db.sqlite3
+>>>>>>> cc9075e1920cc7b2c0eeadc73e09f08f6bc04da7
