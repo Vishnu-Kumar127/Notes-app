@@ -35,8 +35,10 @@ function Form({ route, method }) {
     };
 
     const handleAltButtonClick = (e) => {
+        setloading(true);
         e.preventDefault();
         navigate(altRoute);
+        setloading(false);
     };
 
     return (
