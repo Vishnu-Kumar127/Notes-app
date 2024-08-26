@@ -29,7 +29,7 @@ function Form({ route, method }) {
             }
         } catch (error) {
             setError("Invalid credentials. Please try again.");
-            console.log(error)
+            // console.log(error)
             alert(error)
         } finally {
             setLoading(false)
